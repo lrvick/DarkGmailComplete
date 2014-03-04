@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "content_scripts": [ {
+        "exclude_globs":    [  ],
+        "include_globs":    [ "*" ],
+        "js":               [ "theme.js" ],
+        "matches":          [   "http://mail.google.com/*",
+                                "https://mail.google.com/*"
+                            ],
+        "run_at": "document_end"
+    } ],
+    "converted_from_user_script": true,
+    "description":  "Completes the 'Dark' Theme in Gmail by swapping black/white in the message viewing area.",
+    "name":         "Dark Gmail Complete",
+    "version":      "1"
+}
