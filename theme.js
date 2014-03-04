@@ -8,4 +8,4 @@ function injectCSS(cssdata){
 
 injectCSS('.hx, .hP, .gE.iv.gt * {color:#FFF !important}')
 injectCSS('.hk.kv.Bk, .g6, .gD {color:#999 !important}')
-injectCSS('.UG, .iY.Bu { background:#000 !important }')
+injectCSS('.UG, .iY .Bu { background:#000 !important }')
